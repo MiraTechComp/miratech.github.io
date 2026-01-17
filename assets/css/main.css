@@ -3360,6 +3360,30 @@ input, select, textarea {
 	}
 
 
-#content > img {
+#s_content > img {
 	width: 100% !important;
+}
+
+._commentpath > profile {
+	display: inline-flex;
+
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+._commentpath > profile > h3, img{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 20px;
+	align-items: center;
+	text-align: center;
+}
+
+#comments > header > p, #comments > header > h2 {
+	margin: 0;
+}
+
+#comments > header > form > * {
+	margin-bottom: 10px;
 }

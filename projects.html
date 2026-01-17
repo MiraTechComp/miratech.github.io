@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Right Sidebar - Arcana by HTML5 UP</title>
+		<title id="htm_title">Проекты | MiraTech site</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -27,7 +27,7 @@
 									<a href="projects.html">Проекты</a>
 									<ul>
 										<li>
-											<a href="projects.html">Базовые</a>
+											<a href="projects.html?basic">Базовые</a>
 											<ul>
 												<li><a href="projects.html?1">CO2aircleaner</a></li>
 											</ul>
@@ -52,38 +52,70 @@
 
 									<!-- Content -->
 
-										<article>
+										<article id="s_content">
 											<header>
-												<h2>Right Sidebar</h2>
-												<p>Sidebar on the right, content on the left.</p>
+												<h2>Проекты: MiraTech</h2>
+												<!-- <br> -->
 											</header>
 
-											<span class="image featured"><img src="images/banner.jpg" alt="" /></span>
+											<!-- <span class="image featured"><img src="images/banner.jpg" alt="" /></span> -->
 											<div id="content">
-												<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-												Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-												Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
-												consequat etiam lorem ipsum dolor sit amet nullam.</p>
+												<p>Добро пожаловать! Здесь, в проектах, вы можете найти всё что нужно для сборки любого нашего проекта - схемы, прошивки, чертежи, пошаговый алгоритм сборки и видео на YouTube с полным объяснением алгоритма сборки. На странице проекта текст видео продублирован, оптимизирован и добавлены примечания. Также вы можете оставлять комментарии на страницах проектов.</p>
 
-												<h3>And Yet Another Subheading</h3>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
-												justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
-												ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
-												vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
-												Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
-												rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
-												Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
-												Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.</p>
-
-												<p>Phasellus odio risus, faucibus et viverra vitae, eleifend ac purus. Praesent mattis, enim
-												quis hendrerit porttitor, sapien tortor viverra magna, sit amet rhoncus nisl lacus nec arcu.
-												Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt. Mauris dolor urna,
-												fringilla vel malesuada ac, dignissim eu mi. Praesent mollis massa ac nulla pretium pretium.
-												Maecenas tortor mauris, consectetur pellentesque dapibus eget, tincidunt vitae arcu.
-												Vestibulum purus augue, tincidunt sit amet iaculis id, porta eu purus.</p>
+												<h3>Все проекты:</h3>
+												<p>
+													<ul>
+														<li>
+															<a href="./projects.html?basic">Базовые</a>
+															<ol>
+																<li><a href="./projects.html?1">AirCleaner</a></li>
+																<li><a href="#">WaterCleaner</a></li>
+																<li><a href="#">AutoGrower</a></li>
+																<li><a href="#">Electro #1</a></li>
+															</ol>
+														</li>
+														<li>Пользовательские: пока ничего нет, но скоро будет!</li>
+													</ul>
+												</p>
 											</div>
 										</article>
-
+								</div>
+								<br>
+								<div id="comments">
+									<header>
+										<h2>Комментарии</h2>
+										<p>Пишите, отправляйте, общайтесь. Для оформления - html/markdown (без тегов script!)</p>
+										<br>
+										<form id="comment_form">
+											<input type="text" name="token" id="c_in_name" placeholder="GitHub classic token">
+											<textarea type="text" name="text" rows="5" id="c_in_text" placeholder="Comment text"></textarea>
+											<button type="submit" class="button alt">Отправить</button>
+										</form>
+									</header>
+									<br>
+									<br>
+									<div id="s_comments">
+										<article class="_commentpath">
+											<profile>
+												<img src="" width="50" height="50">
+												<h3>NThacker1</h3>
+											</profile>
+											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+													Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+													Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+													consequat etiam lorem ipsum dolor sit amet nullam.</p>
+										</article>
+										<article class="_commentpath">
+											<profile>
+												<img src="" width="50" height="50">
+												<h3>NThacker1</h3>
+											</profile>
+											<p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+													Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+													Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+													consequat etiam lorem ipsum dolor sit amet nullam.</p>
+										</article>
+									</div>
 								</div>
 							</div>
 							<div class="col-4 col-12-narrower">
